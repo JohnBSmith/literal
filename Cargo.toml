@@ -3,6 +3,10 @@ name = "literal"
 version = "0.1.0"
 authors = ["Finn <finn.bcd@gmail.com>"]
 license = "CC0-1.0"
+
+description = "Literals for Rust's collections"
+repository = "https://github.com/JohnBSmith/literal"
+
 edition = "2018"
 
 [dependencies]
