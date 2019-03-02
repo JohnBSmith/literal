@@ -1,5 +1,5 @@
 
-# Literals for Rust's collections
+## Literals for Rust's collections
 
 ```rust
 use std::collections::HashMap;
