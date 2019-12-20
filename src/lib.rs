@@ -5,6 +5,16 @@ mod tests;
 use std::collections::HashMap;
 use std::collections::BTreeMap;
 
+#[macro_export]
+macro_rules! array_from {
+    ($($item:expr),* $(,)?) => {[$($item.into(),)*]}
+}
+
+#[macro_export]
+macro_rules! vec_from {
+    ($($item:expr),* $(,)?) => {vec![$($item.into(),)*]}
+}
+
 pub trait MapLiteral<K,V> {
     fn new() -> Self;
     fn insert(m: &mut Self, k: K, v: V);
