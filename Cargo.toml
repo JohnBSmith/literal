@@ -1,6 +1,6 @@
 [package]
 name = "literal"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Finn <finn.bcd@gmail.com>"]
 license = "CC0-1.0"
 
